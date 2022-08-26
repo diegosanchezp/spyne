@@ -369,6 +369,7 @@ DEFAULT_FIELD_MAP = (
     ('BooleanField', primitive.Boolean),
     ('NullBooleanField', primitive.Boolean),
     ('IntegerField', primitive.Integer),
+    ('BigAutoField', primitive.Integer64),
     ('BigIntegerField', primitive.Integer64),
     ('PositiveIntegerField', primitive.UnsignedInteger32),
     ('SmallIntegerField', primitive.Integer16),
